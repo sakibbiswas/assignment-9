@@ -1,37 +1,38 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App'
 import './index.css'
 import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+
 import Main from './components/Layout/Main';
 import Blogs from './components/Blogs/Blogs';
 import Statistics from './components/Statistics/Statistics';
 import AppliedJobs from './components/Applied Jobs/AppliedJobs';
 import Home from './components/Home/Home';
+
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Main></Main>,
     children: [
       {
-        path: "/home",
+        path: "/",
         element: <Home></Home>
       },
       {
-        path: "/statistics",
+        path: "statistics",
         element: <Statistics></Statistics>
       },
       {
-        path: "/applied Jobs",
+        path: "applied-Jobs",
         element: <AppliedJobs></AppliedJobs>
       },
       {
-        path: "/blog",
+        path: "blog",
         element: <Blogs></Blogs>
-      },
+      }
     ]
   }
 

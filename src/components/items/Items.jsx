@@ -7,10 +7,10 @@ import logo4 from '../../Icons/social-media 1.png'
 
 const Items = () => {
     return (
-        <div >
+        <div className='mb-16'>
             <div className='mb-4 text-center' >
 
-                <h3 className='text-xl font-bold'>Job
+                <h3 className='text-3xl font-bold'>Job
                     Category List</h3>
                 <p>
                     Explore thousands of job opportunities with all the information you need. Its your future
@@ -21,7 +21,7 @@ const Items = () => {
                  w-52 h-36 rounded-xl">
                     <img className='pl-2' src={logo1} alt="" />
                     <div className="pl-3">
-                        <p>Account & Finance</p>
+                        <p className='text-xl font-semibold'>Account & Finance</p>
                         <p>100+ Jobs Available</p>
                     </div>
                 </div>
@@ -30,7 +30,7 @@ const Items = () => {
                  w-52 h-36 rounded-xl">
                     <img className='pl-2' src={logo2} alt="" />
                     <div className="pl-3">
-                        <p>Account & Finance</p>
+                        <p className='text-xl font-semibold'>Creative Design</p>
                         <p>100+ Jobs Available</p>
                     </div>
                 </div>
@@ -39,8 +39,8 @@ const Items = () => {
                  w-52 h-36 rounded-xl">
                     <img className='pl-2' src={logo3} alt="" />
                     <div className="pl-3">
-                        <p>Account & Finance</p>
-                        <p>100+ Jobs Available</p>
+                        <p className='text-xl font-semibold'>Marketing & Sales</p>
+                        <p>150+ Jobs Available</p>
                     </div>
                 </div>
 
@@ -48,8 +48,8 @@ const Items = () => {
                  w-52 h-36 rounded-xl">
                     <img className='pl-2' src={logo4} alt="" />
                     <div className="pl-3">
-                        <p>Account & Finance</p>
-                        <p>100+ Jobs Available</p>
+                        <p className='text-xl font-semibold'>Engineering Job</p>
+                        <p>200+ Jobs Available</p>
                     </div>
                 </div>
 
