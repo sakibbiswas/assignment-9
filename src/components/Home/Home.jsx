@@ -1,9 +1,10 @@
 import React from 'react';
+import Main from '../Layout/Main';
 
 const Home = () => {
     return (
         <div>
-            <h2>this HGHG is home</h2>
+            <h3>fdfgdfgfdghgfh</h3>
         </div>
     );
 };
