@@ -22,9 +22,9 @@ const Jobcard = ({ job }) => {
                 <p className='flex gap-4'> <MapPinIcon className="h-5 w-4 text-blue-500" /> {location}</p>
                 <p>$ Salary :{salary}</p>
             </div>
-            <Link to={`/jobdetail/${id}`}><button className='px-3 py-2 bg-slate-300 mt-2 rounded-xl'>View details</button></Link>
+            <Link to={`/jobdetail/${id}`}><button className='px-3 py-2 bg-slate-300 mt-2 rounded-xl'>View details</button> </Link>
 
-        </div>
+        </div >
 
     );
 };

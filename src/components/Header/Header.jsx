@@ -26,6 +26,7 @@ const Header = () => {
                     <li><Link to="/statistics">Statistics</Link></li>
                     <li><Link to="/applied-Jobs">Applied Jobs</Link></li>
                     <li><Link to="/blog">Blog</Link></li>
+                    <li><Link to="/contact">Contact</Link></li>
                     <li><button className='bg-sky-500 px-4 py-2 rounded-md text-fuchsia-100'>Start Applying</button></li>
                 </ul>
             </nav>

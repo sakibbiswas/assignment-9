@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import Jobcard from '../jobcard/Jobcard';
+import JobDetails from '../JobDetails/JobDetails';
 
 
 
 const FeaturedJobs = () => {
+
     const [jobs, setjobs] = useState([])
     useEffect(() => {
         fetch('job.json')
@@ -11,6 +13,8 @@ const FeaturedJobs = () => {
             .then(data => setjobs(data))
 
     }, [])
+
+
     return (
         <div>
             <div className="text-center mb-6">
@@ -23,8 +27,10 @@ const FeaturedJobs = () => {
                         key={job.id}
                         job={job}
 
+
                     ></Jobcard>)
                 },
+
 
 
 

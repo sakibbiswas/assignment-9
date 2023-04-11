@@ -10,6 +10,7 @@ const JobDetails = () => {
     return (
         <div>
 
+
         </div>
     );
 };
