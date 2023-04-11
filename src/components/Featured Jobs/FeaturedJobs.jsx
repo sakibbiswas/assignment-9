@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import Jobcard from '../jobcard/Jobcard';
 
+
+
 const FeaturedJobs = () => {
     const [jobs, setjobs] = useState([])
     useEffect(() => {
@@ -20,8 +22,13 @@ const FeaturedJobs = () => {
                     jobs.map(job => <Jobcard
                         key={job.id}
                         job={job}
+
                     ></Jobcard>)
-                }
+                },
+
+
+
+
 
             </div>
             <div className='text-center mb-5'>

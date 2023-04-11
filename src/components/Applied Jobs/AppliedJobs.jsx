@@ -1,9 +1,17 @@
 import React from 'react';
+import Jobcard from '../jobcard/Jobcard';
+import { useLoaderData } from 'react-router-dom';
 
 const AppliedJobs = () => {
+    const jobs = useLoaderData();
+    console.log(jobs);
     return (
-        <div>
-            <h3>aplied jons </h3>
+        <div className=''>
+            <div>
+                <Jobcard job={[]}></Jobcard>
+            </div>
+
+
         </div>
     );
 };
