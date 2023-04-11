@@ -14,7 +14,7 @@ const JobDetails = () => {
     }, [])
 
     const addhandeljob = (detail) => {
-        addToDb
+        addToDb()
     }
 
     return (

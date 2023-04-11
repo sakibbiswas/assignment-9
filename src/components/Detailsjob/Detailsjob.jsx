@@ -3,7 +3,7 @@ import { useLoaderData } from 'react-router-dom';
 import JobDetails from '../JobDetails/JobDetails';
 
 const Detailsjob = ({ detail, addhandeljob }) => {
-    console.log(detail);
+    // console.log(detail);
     const { id, phone, email, address, name, salary, title, location, EducationalRequirements, Experiences, JobDescription, JobResponsibility
 
 
