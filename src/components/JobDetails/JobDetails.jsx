@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Detailsjob from '../Detailsjob/Detailsjob';
 import { useLoaderData } from 'react-router-dom';
 import Jobcard from '../jobcard/Jobcard';
+import { addToDb } from '../../utilities/fakedb';
 
 
 const JobDetails = () => {
@@ -12,12 +13,17 @@ const JobDetails = () => {
             .then(detail => usedetails(detail))
     }, [])
 
+    const addhandeljob = (detail) => {
+        addToDb
+    }
+
     return (
         <div>
             {
                 details.map(detail => <Detailsjob
                     key={detail.id}
                     detail={detail}
+                    addhandeljob={addhandeljob}
                 ></Detailsjob>)
             }
 

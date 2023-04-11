@@ -2,12 +2,13 @@ import React from 'react';
 import { useLoaderData } from 'react-router-dom';
 import JobDetails from '../JobDetails/JobDetails';
 
-const Detailsjob = ({ detail }) => {
+const Detailsjob = ({ detail, addhandeljob }) => {
     console.log(detail);
     const { id, phone, email, address, name, salary, title, location, EducationalRequirements, Experiences, JobDescription, JobResponsibility
 
 
     } = detail;
+
     return (
         <div className='md:flex  items-center justify-center gap-24 pl-10 pr-10'>
             <div className=''>
@@ -39,7 +40,7 @@ const Detailsjob = ({ detail }) => {
                     <h2 className='font-semibold'>Address:<span className='text-gray-700'>{address}</span> </h2>
                 </div>
                 <div className='text-center mt-6'>
-                    <button className='px-10 py-3 bg-orange-400 rounded-xl'><span className='text-gray-100'>ApplyNow</span> </button>
+                    <button onClick={() => addhandeljob(detail.id)} className='px-10 py-3 bg-orange-400 rounded-xl'><span className='text-gray-100'>ApplyNow</span> </button>
                 </div>
 
 
