@@ -9,7 +9,7 @@ const Detailsjob = ({ detail }) => {
 
     } = detail;
     return (
-        <div className='md:flex  items-center justify-center gap-32 pl-10 pr-10'>
+        <div className='md:flex  items-center justify-center gap-24 pl-10 pr-10'>
             <div className=''>
                 <h3 className='mb-10'><strong>Job Description:</strong> <span className='text-lg'>
                     {JobDescription}</span> </h3>
@@ -24,18 +24,19 @@ const Detailsjob = ({ detail }) => {
 
                 <h2 className='text-lg'><strong>Experiences:</strong>{Experiences}</h2>
             </div>
-            <div className="bg-slate-400 p-10">
+            <div className="bg-gray-300 p-14">
 
-                <h2 className=''>Job Details</h2>
+                <h2 className='text-xl font-semibold mb-5'>Job Details</h2>
                 <div>
-                    <h2>Salary:{salary}</h2>
-                    <h4>Job-Title: {title}</h4>
+                    <h2 className='font-semibold'>Salary:<span className='text-gray-700'>{salary}</span></h2>
+                    <h4 className='font-semibold'>Job-Title:<span className='text-gray-700'>{title}</span> </h4>
                 </div>
-                <h2>Contact Information</h2>
+                <h2 className=' text-xl font-semibold mb-4'><span className='text-gray-700'>Contact Information</span></h2>
+                <p className='border-2 mb-4'><hr /></p>
                 <div className="">
-                    <h3>Phone: {phone}</h3>
-                    <h2>Email : {email}</h2>
-                    <h2>Address: {address}</h2>
+                    <h3 className='font-semibold'>Phone:<span className='text-gray-700'>{phone}</span> </h3>
+                    <h2 className='font-semibold'>Email:<span className='text-gray-700'>{email}</span> </h2>
+                    <h2 className='font-semibold'>Address:<span className='text-gray-700'>{address}</span> </h2>
                 </div>
                 <div className='text-center mt-6'>
                     <button className='px-10 py-3 bg-orange-400 rounded-xl'><span className='text-gray-100'>ApplyNow</span> </button>
