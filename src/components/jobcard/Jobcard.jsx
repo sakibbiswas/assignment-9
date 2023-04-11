@@ -10,7 +10,7 @@ const Jobcard = ({ job }) => {
     return (
 
         <div className='border-2 w-10/12 h-auto p-5 mb-10'>
-            <img src={img} alt="" />
+            <img className='w-56' src={img} alt="" />
             <p className='pl-3 text-xl font-semibold'>{title}</p>
             <p className='pl-3'>{name}</p>
             <div className='flex  pl-3 gap-5 mt-2 mb-2'>

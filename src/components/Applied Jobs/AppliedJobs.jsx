@@ -1,14 +1,24 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Jobcard from '../jobcard/Jobcard';
 import { useLoaderData } from 'react-router-dom';
+import Jobapplied from '../Jobapply/Jobapplied';
+
 
 const AppliedJobs = () => {
-    const jobs = useLoaderData();
-    console.log(jobs);
+    const [jobs, setjobs] = useState([])
+    useEffect(() => {
+        fetch("/job.json")
+            .then(res => res.json())
+            .then(data => setjobs(data))
+    }, [])
     return (
         <div className=''>
             <div>
-                <Jobcard job={[]}></Jobcard>
+                {
+                    jobs.map(job => <Jobapplied
+                        key={job.id}
+                        job={job}></Jobapplied>)
+                }
             </div>
 
 
