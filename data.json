@@ -1,5 +1,4 @@
 
-
 [
 
     {
@@ -12,77 +11,10 @@
       "JobDescription":"A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
 "JobResponsibility":"Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
 "EducationalRequirements":"Bachelor degree to complete any reputational university.",
-"Experiences":"2-3 Years in this field."
-      
-
-    },
-    {
-      "id":"2",
-      "img":"https://thumbs.dreamstime.com/b/netflix-logo-isolated-los-gatos-california-united-states-august-netflix-logo-isolated-sign-headquarters-building-126083376.jpg",
-      "name":"Netflix",
-      "title":"Senior Product Designer",
-      "salary":"100k-150k",
-      "location":"Dhaka-Bangladesh",
-            "JobDescription":"A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
-"JobResponsibility":"Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
-"EducationalRequirements":"Bachelor degree to complete any reputational university.",
-"Experiences":"2-3 Years in this field."
-      
-
-    },
-    {
-      "id":"3",
-      "img":"data:image/jpeg;base64,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",
-      "name":"Software Engineer",
-      "title":"Technical Database Engineer",
-      "salary":"100k-150k",
-      "location":"Dhaka-Bangladesh",
-            "JobDescription":"A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
-"JobResponsibility":"Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
-"EducationalRequirements":"Bachelor degree to complete any reputational university.",
-"Experiences":"2-3 Years in this field."
-      
-
-    },
-    {
-      "id":"4",
-      "img":"https://1000logos.net/wp-content/uploads/2017/08/Font-Fiverr-Logo.jpg",
-      "name":"Google LLC",
-      "title":"Fiver",
-      "salary":"100k-150k",
-      "location":"Dhaka-Bangladesh",
-            "JobDescription":"A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
-"JobResponsibility":"Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
-"EducationalRequirements":"Bachelor degree to complete any reputational university.",
-"Experiences":"2-3 Years in this field."
-      
-
-    },
-    {
-      "id":"5",
-      "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnKJO1xAP38obkgilGCh6e9lH9DpP3BHIrDPtU-Ch0_C4bCprTVuVUSOi0qgedtJK2E5Y&usqp=CAU",
-      "name":"Google LLC",
-      "title":"Amazon",
-      "salary":"100k-150k",
-      "location":"Dhaka-Bangladesh",
-            "JobDescription":"A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
-"JobResponsibility":"Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
-"EducationalRequirements":"Bachelor degree to complete any reputational university.",
-"Experiences":"2-3 Years in this field."
-      
-
-    },
-    {
-      "id":"6",
-      "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRWsct2IU72HtdVsNH8ANr4grYy4p_JbX7MhBSh57M&s",
-      "name":"Google LLC",
-      "title":"Technical Database Engineer",
-      "salary":"100k-150k",
-      "location":"Dhaka-Bangladesh",
-            "JobDescription":"A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
-"JobResponsibility":"Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
-"EducationalRequirements":"Bachelor degree to complete any reputational university.",
-"Experiences":"2-3 Years in this field."
+"Experiences":"2-3 Years in this field.",
+"phone":"0146387549854",
+"email":"bac@gmail.com",
+"address":" Uttara ,Dhaka bangladesh"
       
 
     }
