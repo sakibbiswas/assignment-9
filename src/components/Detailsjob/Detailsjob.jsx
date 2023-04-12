@@ -1,5 +1,5 @@
 import React from 'react';
-import { useLoaderData } from 'react-router-dom';
+import { Link, useLoaderData } from 'react-router-dom';
 import JobDetails from '../JobDetails/JobDetails';
 
 const Detailsjob = ({ detail, addhandeljob }) => {
@@ -33,14 +33,14 @@ const Detailsjob = ({ detail, addhandeljob }) => {
                     <h4 className='font-semibold'>Job-Title:<span className='text-gray-700'>{title}</span> </h4>
                 </div>
                 <h2 className=' text-xl font-semibold mb-4'><span className='text-gray-700'>Contact Information</span></h2>
-                <p className='border-2 mb-4'><hr /></p>
+
                 <div className="">
                     <h3 className='font-semibold'>Phone:<span className='text-gray-700'>{phone}</span> </h3>
                     <h2 className='font-semibold'>Email:<span className='text-gray-700'>{email}</span> </h2>
                     <h2 className='font-semibold'>Address:<span className='text-gray-700'>{address}</span> </h2>
                 </div>
                 <div className='text-center mt-6'>
-                    <button onClick={() => addhandeljob(detail.id)} className='px-10 py-3 bg-orange-400 rounded-xl'><span className='text-gray-100'>ApplyNow</span> </button>
+                    <Link to="/applied-Jobs"> <button onClick={() => addhandeljob(detail)} className='px-10 py-3 bg-orange-400 rounded-xl'><span className='text-gray-100'>ApplyNow</span> </button></Link>
                 </div>
 
 

@@ -3,7 +3,7 @@ import { MapPinIcon } from '@heroicons/react/24/solid'
 import { Link } from 'react-router-dom';
 
 const Jobapplied = ({ job }) => {
-    console.log(job);
+    // console.log(job);
     const { id, name, location, title, img, salary } = job;
     return (
         <div className=" pl-10 pt-10">
