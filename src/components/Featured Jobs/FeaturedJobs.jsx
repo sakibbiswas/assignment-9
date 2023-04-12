@@ -5,7 +5,6 @@ import JobDetails from '../JobDetails/JobDetails';
 
 
 const FeaturedJobs = () => {
-
     const [jobs, setjobs] = useState([])
     useEffect(() => {
         fetch('/job.json')
@@ -37,7 +36,7 @@ const FeaturedJobs = () => {
 
 
             </div>
-            <div className='text-center mb-5'>
+            <div id='showall' className='text-center mb-5'>
                 <button className='bg-orange-300 px-3 py-2 rounded-xl'>Show More</button>
 
             </div>

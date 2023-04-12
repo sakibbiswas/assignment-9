@@ -6,6 +6,7 @@ import JobDetails from '../JobDetails/JobDetails';
 const Jobcard = ({ job }) => {
 
 
+
     const { id, name, location, title, img, salary } = job;
     return (
 
